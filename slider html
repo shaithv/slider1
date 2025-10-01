@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="imagenes en slide">
+    <title>slider</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section class="contenedor">
+        <div class="slider_wrapper">
+            <div class="slider">
+                <img id="slider1" src="IMG/flor1.jpeg" alt="Flor de Jamaica" title="Flor de Jamaica">
+                <img id="slider2" src="IMG/flor2.jpeg" alt="Flor de Loto" title="Flor de Loto">
+                <img id="slider3" src="IMG/flor3.jpeg" alt="Lirios" title="Lirios">
+                <img id="slider4" src="IMG/flor4.jpeg" alt="Gerbera" title="Gerbera">
+                <img id="slider5" src="IMG/flor5.jpeg" alt="Tulipan" title="Tulipan">
+            </div>
+            <div class="slider_nav">
+                <a href="#slider1"></a>
+                <a href="#slider2"></a>
+                <a href="#slider3"></a>
+                <a href="#slider4"></a>
+                <a href="#slider5"></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
